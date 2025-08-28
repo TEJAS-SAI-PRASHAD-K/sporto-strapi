@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "venue_models",
+  "info": {
+    "singularName": "venue-model",
+    "pluralName": "venue-models",
+    "displayName": "Venue Model"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "venue": {
+      "type": "json"
+    },
+    "court": {
+      "type": "json"
+    },
+    "venueBooking": {
+      "type": "json"
+    },
+    "venueReview": {
+      "type": "json"
+    }
+  }
+}

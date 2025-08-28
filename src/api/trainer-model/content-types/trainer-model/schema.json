@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "trainer_models",
+  "info": {
+    "singularName": "trainer-model",
+    "pluralName": "trainer-models",
+    "displayName": "Trainer Model"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "trainer": {
+      "type": "json"
+    },
+    "trainingService": {
+      "type": "json"
+    },
+    "trainingSession": {
+      "type": "json"
+    },
+    "trainerReview": {
+      "type": "json"
+    }
+  }
+}

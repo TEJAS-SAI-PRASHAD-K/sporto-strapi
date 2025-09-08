@@ -633,8 +633,6 @@ export interface ApiVenueModelVenueModel extends Struct.CollectionTypeSchema {
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     venue: Schema.Attribute.JSON;
-    venueBooking: Schema.Attribute.JSON;
-    venueReview: Schema.Attribute.JSON;
   };
 }
 

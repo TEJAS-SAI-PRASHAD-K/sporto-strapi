@@ -16,12 +16,6 @@
     },
     "court": {
       "type": "json"
-    },
-    "venueBooking": {
-      "type": "json"
-    },
-    "venueReview": {
-      "type": "json"
     }
   }
 }

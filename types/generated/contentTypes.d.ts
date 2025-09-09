@@ -600,7 +600,6 @@ export interface ApiTrainerModelTrainerModel
     trainer: Schema.Attribute.JSON;
     trainerReview: Schema.Attribute.JSON;
     trainingService: Schema.Attribute.JSON;
-    trainingSession: Schema.Attribute.JSON;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;

@@ -17,9 +17,6 @@
     "trainingService": {
       "type": "json"
     },
-    "trainingSession": {
-      "type": "json"
-    },
     "trainerReview": {
       "type": "json"
     }
